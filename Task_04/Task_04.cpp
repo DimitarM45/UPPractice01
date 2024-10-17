@@ -13,13 +13,20 @@ int main()
 	{
 		int x = (b * -1) / a;
 
+		if (x == 0)
+		{
+			std::cout << "NO";
+
+			return 0;
+		}
+
 		std::cout << x;
 	}
 	else if (a == 0 && b == 0)
 	{
 		std::cout << "INF";
 	}
-	else
+	else 
 	{
 		std::cout << "NO";
 	}
