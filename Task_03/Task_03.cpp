@@ -32,7 +32,7 @@ int main()
 			break;
 
 		default:
-			std::cout << "Not a valid season!";
+			std::cout << "Not a valid month!";
 			break;
 	}
 }

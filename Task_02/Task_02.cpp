@@ -7,7 +7,7 @@ int main()
 	char symbol;
 	std::cin >> symbol;
 
-	short lowerUpperDifference = 32;
+	const short lowerUpperDifference = 32;
 	
 	if (symbol >= 'A' && symbol <= 'Z')
 	{
